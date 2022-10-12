@@ -1,0 +1,109 @@
+#page_connexion .container {
+    min-height: 100vh;
+    min-width: 100vw!important;
+    background: #6610f2!important;
+}
+
+.connexion_form {
+    padding-top: 25vh;
+}
+
+.connexion_form a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.connexion_form h1 {
+    text-align: center;
+    color: #fff;
+}
+
+#logForm {
+    background: #fff;
+    border-radius: 20px;
+    min-height: 30vh;
+    width: 30vw;
+    margin: auto;
+    box-shadow: 5px 5px 15px #ffffff9b;
+    padding: 50px;
+}
+
+#logForm label {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+#logForm input[type="text"],
+#logForm input[type="password"] {
+    border: none;
+    box-shadow: inset 5px 5px 10px #BDE5F4;
+    border-radius: 5px;
+    padding: 5px 20px;
+    line-height: 1.5em;
+    font-size: 16px;
+    min-width: 300px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#logForm input[type="submit"] {
+    background: #6610f2;
+    color: #fff;
+    border: 2px solid #6610f2;
+    min-width: 60%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#logForm input[type="submit"]:hover,
+#logForm input[type="submit"]:focus {
+    background: #fff;
+    color: #3CEFBE;
+    border: 2px solid #6610f2;
+}
+
+.link {
+    padding-top: 50px;
+}
+
+.link a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.alert-warning,
+.alert-danger {
+    width: 40vw;
+    margin: auto;
+    font-size: 16px;
+}
+
+
+/* Responsive Mobile */
+
+@media screen and (max-width:756px) and (orientation: portrait) {
+    #logForm {
+        background: #fff;
+        border-radius: 20px;
+        min-height: 30vh;
+        min-width: 90vw;
+        margin: auto;
+        box-shadow: 5px 5px 15px #ffffff9b;
+        padding: 50px;
+    }
+    .alert-warning,
+    .alert-danger {
+        width: 90vw;
+    }
+}

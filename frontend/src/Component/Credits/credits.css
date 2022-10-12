@@ -1,0 +1,18 @@
+h1 {
+    font-family: 'Lato';
+    text-align: left;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400!important;
+    color: #444;
+}
+
+#page_boutique{
+    padding-top:9vh;
+    width: 80vw!important;
+    margin-left:200px;
+    box-shadow: 5px 5px 10px #BDE5F4;
+    border-radius: 10px;
+    padding: 20px;
+}

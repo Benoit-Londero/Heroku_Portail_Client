@@ -1,0 +1,71 @@
+#adminForm h1 {
+     text-align: left;
+     font-size: 24px;
+     letter-spacing: 2px;
+     font-weight: 500!important;
+     color: #6610f2;
+     margin-left:200px;
+     padding:20px;
+     background-color: #6710f21d;
+     border-radius: 10px;
+ }
+
+#HeureForm{
+     border:1px solid #eee;
+     border-radius: 10px;
+     padding:20px;
+     width:80vw;
+     margin-left:200px;
+     box-shadow: 5px 5px 10px rgba(189, 229, 244, 0.4);
+}
+
+#adminForm label{
+     font-size: 16px;
+     width:100%;
+     margin-top: 50px;
+     text-align: left!important;
+}
+
+input,
+textarea,
+select{
+     border:1px solid #ddd;
+     border-radius: 5px;
+     width:100%;
+     font-size: 14px;
+     text-align: left;
+     color:#111;
+     padding: 10px 20px;
+}
+
+input[type="submit"]{
+     margin-top: 70px;
+     color:#fff;
+     text-align: center;
+     background-color: #6610f2;
+     text-transform: uppercase;
+     font-weight: 600;
+     letter-spacing: 2px;
+     vertical-align: middle;
+     font-size: 15px;
+}
+
+.required{
+     color:red;
+     font-size: 12px;
+}
+
+input[type="submit"]:hover{
+    color:#fff;
+     text-align: center;
+     background-color: #5001cf;
+}
+
+@media screen and (max-width:756px) and (orientation: portrait) {
+     #adminForm h1,
+     #HeureForm{
+          margin-left:auto;
+          margin-right:auto;
+          width:90vw;
+     }
+}

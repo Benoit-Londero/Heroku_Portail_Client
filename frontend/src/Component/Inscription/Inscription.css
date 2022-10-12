@@ -1,0 +1,71 @@
+#page_inscription .container {
+    min-height: 100vh;
+    min-width: 100vw!important;
+    background: #6610f2!important;
+}
+
+.inscription_form {
+    padding-top: 20vh;
+}
+
+.inscription_form h1 {
+    text-align: center;
+    color: #fff;
+}
+
+#inscForm {
+    background: #fff;
+    border-radius: 20px;
+    min-height: 30vh;
+    width: 25vw;
+    margin: auto;
+    box-shadow: 5px 5px 15px #ffffff9b;
+    padding: 50px;
+}
+
+.inscription_form a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#inscForm label {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+#inscForm input[type="text"],
+#inscForm input[type="password"],
+#inscForm input[type="email"] {
+    border: none;
+    box-shadow: inset 5px 5px 10px #BDE5F4;
+    border-radius: 5px;
+    padding: 5px 20px;
+    line-height: 1.5em;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+    width: 300px!important;
+}
+
+#inscForm input[type="submit"] {
+    background: #6610f2;
+    color: #fff;
+    border: 2px solid #6610f2;
+    min-width: 60%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#inscForm input[type="submit"]:hover,
+#inscForm input[type="submit"]:focus {
+    background: #fff;
+    color: #6610f2;
+    border: 2px solid #6610f2;
+}
